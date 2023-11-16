@@ -33,7 +33,7 @@ task :bw do
   sh "bundle exec jekyll build --future --drafts --watch"
 end
 
-desc "build and watch locally"
+desc "build the site"
 task :build do
   sh "bundle exec jekyll build --future"
 end
