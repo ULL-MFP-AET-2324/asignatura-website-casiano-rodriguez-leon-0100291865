@@ -37,6 +37,7 @@ desc "build and watch locally"
 task :build do
   sh "bundle exec jekyll build --future"
 end
+
 task :updatebundler do
   sh "bundle update --bundler"
 end
